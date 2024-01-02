@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "pnpm lint --fix"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@types/better-sqlite3": "^7.6.8",
+    "better-sqlite3": "^9.2.2",
+    "drizzle-kit": "^0.20.9",
+    "eslint": "^8.56.0",
+    "nuxt": "^3.9.0",
+    "tsx": "^4.7.0",
+    "vue": "^3.4.3",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@libsql/client": "0.4.0-pre.5",
+    "drizzle-orm": "^0.29.3"
+  }
+}
