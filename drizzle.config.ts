@@ -2,7 +2,7 @@ import 'dotenv/config'
 import type {Config} from 'drizzle-kit'
 
 export default {
-    schema: './modules/*/server/schema.ts',
+    schema: './layers/*/server/schema.ts',
     out: './drizzle',
     driver: 'better-sqlite',
     dbCredentials: {
